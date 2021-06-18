@@ -7,3 +7,14 @@
 .copyright{
   text-align: center;
 }
+
+.what_we_do{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.what_we_do_logos{
+  display: flex;
+  justify-content: space-between;
+}
