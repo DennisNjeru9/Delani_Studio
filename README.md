@@ -27,6 +27,6 @@ Linkedin: https://www.linkedin.com/in/dennis-gitonga-227246193/
 
 
 ### License
-[GNU License](./LICENSE)
+[GNU GPLicense v3.0](./LICENSE)
 
 Copyright (c) [2021] **Dennis Njeru**
