@@ -1,3 +1,44 @@
+.header-background{
+  position: relative;
+}
+
+.header-background img:nth-child(1){
+  width: 100%;
+}
+
+.header-background img:nth-child(2){
+  position: absolute;
+  top: 215px;
+  left: 582px;
+}
+
+.header-background h1:nth-child(3){
+  position: absolute;
+  top:335px;
+  left: 535px;
+  color: white;
+}
+
+.header-background h1:nth-child(4){
+  position: absolute;
+  top: 420px;
+  left: 460px;
+  color: white;
+}
+
+.header-background p{
+  position: absolute;
+  top: 490px;
+  left: 360px;
+  color: white;
+}
+
+.header-background img:nth-child(6){
+  position: absolute;
+  top: 650px;
+  left: 630px;
+}
+
 .socials{
   display: flex;
   justify-content: center;
@@ -19,9 +60,6 @@
   justify-content: space-between;
 }
 
-img{
-  width: 100%;
-}
 
 .images1{
   display: flex;
@@ -39,10 +77,16 @@ img{
 
 #aboutus{
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .services{
   position: relative;
+}
+
+.services img{
+  width: 100%;
 }
 
 .services h2{
