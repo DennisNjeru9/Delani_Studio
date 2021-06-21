@@ -18,3 +18,57 @@
   display: flex;
   justify-content: space-between;
 }
+
+img{
+  width: 100%;
+}
+
+.images1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.images2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio{
+  text-align: center;
+}
+
+#aboutus{
+  text-align: center;
+}
+
+.services{
+  position: relative;
+}
+
+.services h2{
+  position: absolute;
+  top: 105px;
+  left: 600px;
+  color: white;
+}
+
+.services p:nth-child(3){
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  color: white;
+}
+
+.services p:nth-child(4){
+  position: absolute;
+  top: 190px;
+  left: 370px;
+  color: white;
+}
+
+.services p:nth-child(5){
+  position: absolute;
+  top: 230px;
+  left: 328px;
+  color: white;
+}
