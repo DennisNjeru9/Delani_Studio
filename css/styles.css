@@ -57,13 +57,15 @@
 
 .what_we_do_logos{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-left: 250px;
 }
 
 
 .images1{
   display: flex;
   justify-content: space-around;
+  padding: 20px;
 }
 
 .images2{
@@ -176,4 +178,22 @@
 
 #message::placeholder{
   color: white;
+}
+
+#design{
+  text-align: center;
+  padding: 1px;
+  background-color: white;
+}
+
+#development{
+  text-align: center;
+  padding: 1px;
+  background-color: white;
+}
+
+#product-development{
+  text-align: center;
+  padding: 1px;
+  background-color: white;
 }
