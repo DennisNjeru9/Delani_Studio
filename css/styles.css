@@ -116,3 +116,64 @@
   left: 328px;
   color: white;
 }
+
+.contact{
+  position: relative;
+  margin-top: 60px;
+}
+
+.contact img{
+  width: 100%;
+}
+
+.contact h2{
+  position: absolute;
+  top: 40px;
+  left: 550px;
+  color: white;
+}
+
+.contact #name1{
+  position: absolute;
+  top: 85px;
+  left: 90px;
+  width: 40%;
+}
+
+.contact #email1{
+  position: absolute;
+  top: 85px;
+  width: 40%;
+}
+
+.contact #message{
+  position: absolute;
+  top: 140px;
+  left: 180px;
+  width: 65%;
+  height: 210px;
+}
+
+#message{
+  background-color: rgba(0, 0, 0, 0.1) ;
+}
+
+#name1{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#email1{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#email1::placeholder{
+  color: white;
+}
+
+#name1::placeholder{
+  color: white;
+}
+
+#message::placeholder{
+  color: white;
+}
