@@ -66,19 +66,30 @@
   align-items: center;
 }
 
-.images1{
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
+.row{
+  padding: 0 4px;
 }
 
-.images2{
-  display: flex;
-  justify-content: space-around;
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#portfolio{
+  text-align: center;
 }
 
 .portfolio{
-  text-align: center;
+  width: 100%;
 }
 
 #aboutus{
