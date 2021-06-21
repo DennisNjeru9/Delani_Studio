@@ -57,10 +57,14 @@
 
 .what_we_do_logos{
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 250px;
+  justify-content: space-around;
 }
 
+
+.what_we_do_logos p{
+  text-align: center;
+  align-items: center;
+}
 
 .images1{
   display: flex;
@@ -184,16 +188,19 @@
   text-align: center;
   padding: 1px;
   background-color: white;
+  display: none;
 }
 
 #development{
   text-align: center;
   padding: 1px;
   background-color: white;
+  display: none;
 }
 
 #product-development{
   text-align: center;
   padding: 1px;
   background-color: white;
+  display: none;
 }
