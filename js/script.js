@@ -1,3 +1,7 @@
+
+var name = 
+
+
 $(document).ready(function(){
   $(".design").hover(function(){
     $("#design").toggle();
