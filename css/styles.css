@@ -123,6 +123,8 @@ body{
   top: 105px;
   left: 600px;
   color: white;
+  width: 50%;
+  height: auto;
 }
 
 .services p:nth-child(3){
@@ -130,6 +132,8 @@ body{
   top: 150px;
   left: 200px;
   color: white;
+  width: 80%;
+  height: auto;
 }
 
 .services p:nth-child(4){
@@ -137,6 +141,8 @@ body{
   top: 190px;
   left: 370px;
   color: white;
+  width: 50%;
+  height: auto;
 }
 
 .services p:nth-child(5){
@@ -144,12 +150,15 @@ body{
   top: 230px;
   left: 328px;
   color: white;
+  width: 50%;
+  height: auto;
 }
 
 .contact{
   position: relative;
   margin-top: 60px;
   margin-bottom: auto;
+  width: 100%;
 }
 
 .contact img{
@@ -161,6 +170,7 @@ body{
   top: 40px;
   left: 550px;
   color: white;
+  width: 25%;
 }
 
 .contact #mc_embed_signup #mce-FNAME{
@@ -195,11 +205,6 @@ body{
   margin-bottom: 1px;
 }
 
-#mc_embed_signup{
-  margin:unset;
-  width: 100%;
-  
-}
 
 #mce-Message{
   background-color: rgba(0, 0, 0, 0.1) ;
@@ -238,7 +243,6 @@ body{
   position: absolute;
   top: -50px;
   left: -150px;
-  padding: 1px;
   background-color: white;
   display: none;
   width: 420px;
@@ -253,7 +257,6 @@ body{
   position: absolute;
   top: -69px;
   left: -150px;
-  padding: 3px;
   background-color: white;
   display: none;
   width: 420px;
@@ -268,7 +271,6 @@ body{
   position: absolute;
   top: -50px;
   left: -150px;
-  padding: 1px;
   background-color: white;
   display: none;
   width: 420px;
@@ -281,4 +283,124 @@ body{
 
 #product-development{
   position: absolute;
+}
+
+#image1{
+  position: relative;
+}
+#text_one{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  padding: 106px 80px 107px 70px;
+  background-color: rgba(255,255,255,0.3);
+  display: none;
+}
+
+#image2{
+  position: relative;
+}
+#text_two{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.6);
+  display: none;
+}
+
+#image3{
+  position: relative;
+}
+#text_three{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.4);
+  display: none;
+}
+
+#image4{
+  position: relative;
+}
+#text_four{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.6);
+  display: none;
+}
+
+#image5{
+  position: relative;
+}
+#text_five{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.5);
+  display: none;
+}
+
+#image6{
+  position: relative;
+}
+#text_six{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.5);
+  display: none;
+}
+
+#image7{
+  position: relative;
+}
+#text_seven{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.5);
+  display: none;
+}
+
+#image8{
+  position: relative;
+}
+#text_eight{
+  color: black;
+  font-size: large;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  padding: 106px 80px 107px 75px;
+  background-color: rgba(255,255,255,0.5);
+  display: none;
 }
